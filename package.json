@@ -1,16 +1,12 @@
 {
-  "homepage": "https://github.com/maham122222/Personal-Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export", 
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "npm run build && npm run export",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
