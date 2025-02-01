@@ -21,7 +21,7 @@ const Contact = ({id}) => {
     emailjs
       .send(
         'service_nnw1s9u', // Replace with your service ID
-        'template_tf477kp', // Replace with your template ID
+        'template_rnqvmuj', // Replace with your template ID
         templateParams,
         'XRQ-8dKZzSWHuEsq_' // Replace with your user ID
       )
