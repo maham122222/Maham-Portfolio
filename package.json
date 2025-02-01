@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/maham122222/Personal-Portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -25,5 +28,8 @@
     "react-vertical-timeline-component": "^3.5.3",
     "styled-components": "^6.1.14",
     "three": "^0.172.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
