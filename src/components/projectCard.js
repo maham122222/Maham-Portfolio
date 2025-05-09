@@ -2,8 +2,9 @@ import { Box, Button, Card, CardMedia, IconButton, Typography } from '@mui/mater
 import React from 'react'
 import {project} from '../../public/image.png'
 import { FaGithub } from 'react-icons/fa6'
+import { OpenInBrowser } from '@mui/icons-material'
 
-const ProjectCard = ({title,desc,technology,img, githubLink}) => {
+const ProjectCard = ({title,desc,technology,img, githubLink,livedemolink}) => {
   return (
     <Card sx={{
         maxWidth: 300, maxHeight: 340, mt: 3, backgroundColor: '#0C2340'
@@ -34,7 +35,7 @@ const ProjectCard = ({title,desc,technology,img, githubLink}) => {
     {desc}
      </Typography>
       <Typography sx={{fontSize:'11px', fontWeight:'300', color:'grey',pl:1, pb:1}}>{technology}</Typography>
-     <Box sx={{display:'flex', justifyContent:'space-between'}}>
+     <Box sx={{display:'flex', justifyContent:'space-between',flexDirection:'row'}}>
      {/* <Button variant='outlined' sx={{fontSize:'10px',mb:1,ml:1}}>View</Button> */}
      {githubLink && (
           <a href={githubLink} target="_blank" rel="noopener noreferrer">
@@ -43,6 +44,13 @@ const ProjectCard = ({title,desc,technology,img, githubLink}) => {
             </IconButton>
           </a>
         )}
+        {livedemolink && (
+          <a href={livedemolink} target='_blank'>
+          <Button sx={{pr:1, color:'grey',fontSize:'15px',fontStyle:'bold'}}>website demo</Button>
+
+        </a>
+        )}
+        
      </Box>
    </Card>
   )

@@ -12,7 +12,7 @@ import Technologies from './technologies';
 
 const Home = () => {
   const handleDownload = () => {
-    const resumeUrl = "/mahamResume.pdf"; // Make sure resume.pdf is inside the public folder
+    const resumeUrl = "/Resume (4).pdf"; // Make sure resume.pdf is inside the public folder
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "Maham_Jamil_Resume.pdf"; // Change the name accordingly

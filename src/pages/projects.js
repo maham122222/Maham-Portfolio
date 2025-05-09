@@ -28,6 +28,9 @@ const Projects = ({id}) => {
 
 <ProjectCard githubLink='' title="SpaceShare Website (In Progress)" desc="Space Share is a smart parking solution that connects homeowners with unused spaces to drivers in need of parking. Homeowners can list their available spots and earn money, while users can easily find and book convenient parking locations. With a seamless booking system, secure payments, and a user-friendly interface, Space Share makes parking hassle-free and efficient. 🚗✨" technology="Next.js, MUI, javascript" img='/black.png'/>
 
+<ProjectCard githubLink='https://github.com/maham122222/EnquiryForm-Mern-' livedemolink='https://www.loom.com/share/ccd53b4478c94133b061e018cbe293fa?sid=6e850c0e-94cd-4b73-a343-e5e7edc36e64'  title='EnquiryForm(MERN)'
+desc='A full-stack web application where users can submit enquiry forms. Built with React and MUI for a responsive UI, and Node.js with MongoDB for backend data management.' technology='ReactJS, Nodejs, MongoDB,ExpressJs,MUI' img='/black.png'/>
+
 {/* <ProjectCard title="EZ Park App" desc="React automatically updates the DOM to match your render output, so your components won’t often need to manipulate it. However, sometimes you might need access to the DOM elements managed by React—for example, to 
    focus a node, scroll to" technology="ReactNative , clerk , firebase" img='/EzPark.png'/> */}
    </Box>
