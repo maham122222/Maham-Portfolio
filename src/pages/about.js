@@ -24,10 +24,13 @@ const About = ({id}) => {
           }}>
 
 
-I am a Computer Science student with a strong background in web and mobile app development. As a freelancer at Testio, I gained valuable experience as a Quality Assurance Engineer, testing websites and mobile applications from August 2021 to February 2022. I have previously worked as an Associate Software Engineer at Chainfore, where I specialized in React.js, Next.js, Redux Toolkit, JavaScript, and TypeScript. My focus has always been on building dynamic web applications and ensuring high-quality software solutions. Additionally, I am also proficient in React Native, which allows me to 
-create seamless cross-platform mobile applications.</Typography>
+I am a Computer Science graduate with a strong foundation in web development. I began my professional journey as a Freelance QA Engineer at Test IO, where I tested 120+ websites and mobile applications from August 2021 to February 2022. I later worked as an Associate Software Engineer at Chainfore, contributing to feature-rich platforms using React.js, Next.js, Redux Toolkit, TypeScript, and Node.js.
+
+<br/> Currently, I’m working at StrategistHub as a Full Stack Developer, where I’ve developed production-ready websites using Strapi and Next.js, implemented multilingual support, and enhanced UI/UX with Material UI.
+
+I’m passionate about learning modern technologies, writing clean and scalable code, and creating impactful digital experiences..</Typography>
           
-<Grid container  sx={{ mt: 8 }}>
+<Grid container  sx={{ mt: 12 }}>
         {/* Each Grid item takes 6 columns (50% width) on xs screens and 3 columns (25% width) on md screens */}
         <Grid item xs={6} md={2.5}>
           <AboutCard title="Web Developer" Icon={FaReact} iconColor="#087EA4" />
